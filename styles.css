@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  #title {
+    font-size: 20px;
+    color: #808080;
+  }
+  
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  #img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #C0C0C0;
+  }
+  
+  #img-caption {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  #tribute-info {
+    color: #f4f5ff;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  #image {
+    width: 50%;
+    max-width: 100%;
+  }
+  
+  .tribute-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 20px;
+    background-color: #000;
+  }
+  
+  .tribute-container li{
+    border: 2px solid #fff;
+    width: 100%;
+    list-style: none;
+  }
+  
+  .tribute-headlines {
+    color: #add8e6;
+    text-align: center;
+  }
+  
+  .note-box {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .note {
+    font-size: 20px;
+  }
+  
+  #tribute-link {
+    text-decoration: none;
+    color: #0000ff;
+    font-size: 20px;
+  }
